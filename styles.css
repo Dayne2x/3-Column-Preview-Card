@@ -55,14 +55,16 @@ body {
 .learn-more {
     display: flex;
     background-color: hsl(0, 0%, 95%);
-    margin: 3rem;
-    padding: 1em 3em;
+    justify-content: center;
+    margin: 4rem;
+    padding: 15px;
     border-radius: 24px;
     font-size: 15px;
     font-family: "Lexend Deca", "sans-serif";
     font-weight: 400;
     border: 1px solid white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .learn-more:hover {
@@ -80,6 +82,7 @@ body {
 
 .web {
     color: hsl(31, 77%, 52%);
+    text-decoration: none;
 }
 
 .web:hover {
@@ -88,6 +91,7 @@ body {
 
 .me {
     color: hsl(184, 100%, 22%);
+    text-decoration: none;
 }
 
 .me:hover {
